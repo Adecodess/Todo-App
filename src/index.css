@@ -1,0 +1,99 @@
+ body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a605, #2305ab);
+  background-size: cover;
+  position: relative;
+  padding-bottom: 3em;
+  
+  font-size: 2em;
+  /* padding-top: 3em; */
+  /* margin: auto; */
+  /* text-align: center; */
+  /* animation: change 10s ease-in-out; */
+}
+
+h1 {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  section {
+    width: 80%;
+  }
+  form input {
+    width: 80%;
+  }
+  span {
+    font-size: 20px;
+  }
+}
+
+input {
+  /* display: block; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  /* margin-left: 18.5em; */
+  /* margin-bottom: 2em; */
+  /* width: 20%; */
+  /* padding: 15px 15px; */
+  box-sizing: border-box;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+.btn {
+  display: block;
+  /* width: 100%; */
+  padding: 15px 5px 15px 5px;
+  border: black 1px solid;
+  background-color: #71b280;
+  transition-property: transform;
+  transition-duration: 1s;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.btn:hover {
+  background-color: #0abfbc;
+  transform: rotateY(180deg);
+}
+
+form .btn {
+  margin: 1rem auto;
+  width: 10em;
+}
+.rbtn {
+  display: block;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: #16a085;
+  border: black 1px solid;
+  cursor: pointer;
+}
+
+.rbtn:hover {
+  background-color: #f4d03f;
+}
+.done {
+  text-decoration: line-through;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  width: 80%;
+  /* align-items: center; */
+  margin: 0px auto;
+}
+
+.mainApp {
+  width: 100%;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.removeBtn {
+  margin: 0 auto;
+}
